@@ -1,0 +1,44 @@
+body {
+    width: fit-content;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    margin-bottom: 0px;
+    padding: 10px 20px;
+    width: 1000px;
+}
+
+nav {
+    /*Aca se aplica el flex*/
+    display: flex;
+    background-color: rgb(208, 201, 201);
+    /*Sirve para cambiar la direccion de los hijos*/
+    flex-direction: row;
+    /*Aca se define la posicion de los hijos */
+    justify-content: left;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 1px dotted black;
+    box-sizing: border-box;
+}
+
+li {
+    margin: 5px;
+    list-style: none;
+    height: 100px;
+}
+
+.box {
+    padding: 7px 15px;
+}
+
+.box:hover {
+    background-color: grey;
+    color: white;
+}

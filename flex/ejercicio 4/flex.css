@@ -1,0 +1,31 @@
+body {
+    width: fit-content;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    margin-bottom: 0px;
+    padding: 10px 20px;
+}
+
+section {
+    /*Aca se aplica el flex*/
+    display: flex;
+    background-color: rgb(208, 201, 201);
+    /*Sirve para cambiar la direccion de los hijos*/
+    flex-direction: column;
+    /*Aca se define la posicion de los hijos */
+    justify-content: space-between;
+    width: 300px;
+}
+
+.box {
+    padding: 7px 15px;
+}
+
+.box:hover {
+    background-color: grey;
+    color: white;
+}

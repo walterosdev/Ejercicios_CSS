@@ -1,0 +1,74 @@
+/*html {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Cambria Times, 'Times New Roman', serif;
+    color: #1F497D;
+    background-color: #BFBFBF;
+    font-size: 24px;
+    letter-spacing: 0.5em;
+    word-spacing: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Cambria Times, 'Times New Roman', serif;
+    color: #632423;
+    font-size: 18px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+li {
+    font-weight: bold;
+    font-style: italic;
+}
+
+li strong {
+    font-variant: small-caps;
+    font-weight: normal;
+    font-style: normal;
+}*/
+@font-face {
+    font-family: 'Akronim';
+    src: url('fonts/Akronim-Regular.eot');
+    src: url('fonts/Akronim-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Akronim-Regular.woff2') format('woff2'),
+        url('fonts/Akronim-Regular.woff') format('woff'),
+        url('fonts/Akronim-Regular.ttf') format('truetype'),
+        url('fonts/Akronim-Regular.svg#Akronim-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.p1 {
+    font-family: Verdana, sans-serif;
+}
+
+.p2 {
+    font-family: "GFS Didot", serif;
+}
+
+.p3 {
+    font-family: "Freemono", monospace;
+}
+
+.p4 {
+    font-family: "Roboto", sans-serif;
+}
+
+.p5 {
+    font-family: "Akronim", sans-serif;
+    font-size: 24px;
+}
+
+.p6 {
+    font-family: "Montserrat", sans-serif;
+}

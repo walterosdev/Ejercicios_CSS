@@ -1,0 +1,33 @@
+section {
+    height: 950px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+div {
+    border: 1px solid blue;
+    background-color: rgb(255, 0, 106);
+    box-sizing: content-box;
+
+}
+
+div:first-of-type {
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+}
+
+div:last-of-type {
+    height: 200px;
+    background-color: yellow;
+    margin: 10px;
+
+}
+
+div:nth-of-type(2) {
+    height: 500px;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+}

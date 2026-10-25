@@ -1,0 +1,18 @@
+div {
+    background-color: grey;
+    border: 2px black solid;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.anterior {
+    float: left;
+    margin-left: 5px;
+}
+
+.siguiente {
+    float: right;
+    margin-right: 5px;
+}

@@ -1,0 +1,123 @@
+body {
+    /*width: fit-content;*/
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    background-color: rgb(145, 207, 104);
+    color: rgba(58, 58, 58, 0.781);
+    margin-bottom: 0px;
+    padding: 10px 20px;
+    /*width: 1000px;*/
+    text-align: center;
+    font-size: 35px;
+    box-sizing: border-box;
+}
+
+nav {
+    /*Aca se aplica el flex*/
+    display: flex;
+    /*Sirve para cambiar la direccion de los hijos*/
+    flex-direction: row;
+    /*Aca se define la posicion de los hijos */
+    justify-content: left;
+    background-color: green;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+li+li::before {
+    content: "|";
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img#banner {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.material-symbols-outlined {
+    color: white;
+}
+
+#main {
+    color: red;
+}
+
+#houseXXX {
+    font-size: 40px;
+    color: goldenrod;
+}
+
+#camping {
+    font-size: 40px;
+    color: green;
+}
+
+#hotel {
+    font-size: 40px;
+    color: darkblue;
+}
+
+#face,
+#face3 {
+    font-size: 40px;
+    color: white;
+}
+
+#star {
+    color: goldenrod;
+}
+
+.casas {
+    background-color: rgb(225, 229, 166);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 10px;
+    border: 5px solid goldenrod;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.camp {
+    background-color: greenyellow;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 10px;
+    border: 5px solid green;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.hotel {
+    background-color: dodgerblue;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 10px;
+    border: 5px solid darkblue;
+    border-radius: 20px 0px 20px 0px;
+}
+
+footer {
+    background-color: rgba(128, 128, 128, 0.904);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px 0px 20px 0px;
+    text-align: left;
+}

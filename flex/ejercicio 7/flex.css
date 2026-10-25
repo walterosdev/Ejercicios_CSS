@@ -1,0 +1,61 @@
+body {
+    width: fit-content;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-bottom: 0px;
+    padding: 10px 20px;
+    width: 1000px;
+    text-align: right;
+    font-size: 20px;
+}
+
+section {
+    /*Aca se aplica el flex*/
+    display: flex;
+    /*Sirve para cambiar la direccion de los hijos*/
+    flex-direction: row;
+    /*Aca se define la posicion de los hijos */
+    justify-content: left;
+    justify-content: space-around;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 23px;
+}
+
+div.p1 {
+    background-color: rgba(127, 255, 212, 0.589);
+}
+
+div.p2 {
+    background-color: rgb(73, 235, 154);
+}
+
+div.p3 {
+    background-color: rgba(110, 231, 235, 0.904);
+}
+
+img {
+    border: 1px dotted black;
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+}
+
+li {
+    margin: 5px;
+    list-style: none;
+    height: 100px;
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
+}

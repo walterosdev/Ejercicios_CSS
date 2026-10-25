@@ -1,0 +1,44 @@
+section {
+    height: 1000px;
+    border: 2px solid red;
+    padding: 5px;
+
+
+}
+
+div.seccion1 {
+    border: 2px dotted black;
+    float: left;
+    width: 300px;
+    background-color: darkgrey;
+    margin-top: -30px;
+    position: relative;
+    top: 30px;
+
+}
+
+div.seccion2 {
+    border: 2px dotted black;
+    float: right;
+    width: 300px;
+    background-color: darkgrey;
+    position: relative;
+    top: 0px;
+}
+
+div.parrafo {
+    position: relative;
+    top: 500px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+footer {
+    border: 2px solid black;
+    height: 250px;
+    text-align: center;
+    align-content: center;
+    background-color: darkgrey;
+}

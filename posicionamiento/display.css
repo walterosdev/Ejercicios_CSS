@@ -1,0 +1,44 @@
+div,
+a {
+    border: 2px black solid;
+}
+
+#enlinea {
+    display: inline-block;
+}
+
+.bloque {
+    display: block;
+}
+
+article {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border: 1px blue solid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+section {
+    border: 2px black solid;
+    row-gap: 20px;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+article:nth-of-type(5) {
+    /*visibility: hidden;*/
+    /*display: none;*/
+    /*opacity: 0;*/
+}

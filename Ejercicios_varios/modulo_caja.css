@@ -1,0 +1,129 @@
+#box {
+    background-color: blue;
+    margin: 60px 50px 40px 80px;
+    color: white;
+}
+
+#box2 {
+    background-color: rgb(206, 201, 201);
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin: 25px;
+    border: 5px red solid;
+    color: black;
+    text-shadow: 0px 0px 8px yellow;
+}
+
+#box3 {
+    background-color: grey;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    margin: 0px;
+    border: 7px green solid;
+    color: white;
+}
+
+#box3 {
+    background-color: grey;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    margin: 0px;
+    border: 7px green solid;
+    color: white;
+}
+
+#reddead {
+    margin: 10px;
+    border: 5px red solid;
+    padding: 10px;
+}
+
+#a1 {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 5px green solid;
+}
+
+#a2 {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: 5px blue solid;
+}
+
+#a3 {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: 5px orange solid;
+}
+
+#padding1 {
+    width: 500px;
+    padding: 0px;
+    border: 5px red solid;
+    margin: 10px 1000px 10px 0px;
+}
+
+#padding2 {
+    width: 500px;
+    padding: 25px;
+    border: 5px blue solid;
+    margin: 10px 1000px 10px 0px;
+}
+
+#padding3 {
+    width: 500px;
+    padding: 50px;
+    border: 5px green solid;
+    margin: 10px 1000px 10px 0px;
+    box-sizing: border-box;
+}
+
+#border1 {
+    border-top: 5px green dotted;
+    border-bottom: 5px red dotted;
+    border-left: 5px blue dashed;
+    border-right: 5px orange dashed;
+}
+
+#border2 {
+    margin: 10px 0px;
+    border-top: 5px cyan solid;
+    border-bottom: 5px pink solid;
+    border-left: 10px black solid;
+    border-right: 10px black solid;
+}
+
+#outter {
+    margin: 10px 0px;
+    border-top: 5px green dotted;
+    border-bottom: 5px red dotted;
+    border-left: 5px blue dashed;
+    border-right: 5px orange dashed;
+}
+
+#border3 {
+    margin: 10px 10px;
+    border-top: 5px cyan solid;
+    border-bottom: 5px pink solid;
+    border-left: 10px black solid;
+    border-right: 10px black solid;
+}
+
+#cajas {
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border-top: 5px green solid;
+    border-bottom: 5px green solid;
+    border-left: 5px black solid;
+    border-right: 5px black solid;
+}
+
+p {
+    text-align: center;
+}
