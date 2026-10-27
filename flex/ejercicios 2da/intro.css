@@ -1,0 +1,67 @@
+section {
+    border: 5px solid red;
+    width: 100%;
+    height: 97vh;
+    display: flex;
+    box-sizing: border-box;
+}
+
+div {
+    text-align: center;
+    width: 33.33%;
+    height: 80px;
+    font-size: 2em;
+}
+
+#c1 {
+    background-color: rgb(10, 174, 155);
+    color: white;
+}
+
+#c2 {
+    background-color: rgb(0, 119, 255);
+    color: white;
+    height: 100%;
+}
+
+#c3 {
+    background-color: rgba(196, 123, 206, 0.956);
+    color: white;
+}
+
+#c4 {
+    background-color: rgba(3, 7, 45, 0.717);
+    color: white;
+}
+
+#c5 {
+    background-color: goldenrod;
+    color: white;
+}
+
+#c6 {
+    background-color: rgba(167, 109, 3, 0.671);
+    color: white;
+    align-self: center;
+}
+
+#c7 {
+    background-color: rgb(56, 37, 37);
+    color: white;
+}
+
+#c8 {
+    background-color: silver;
+    color: white;
+}
+
+#c9 {
+    background-color: rgba(75, 251, 0, 0.715);
+    color: white;
+    align-self: flex-end;
+}
+
+#c10 {
+    background-color: rgb(3, 255, 167);
+    color: white;
+}

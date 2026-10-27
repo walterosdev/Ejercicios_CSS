@@ -1,0 +1,33 @@
+.container {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "head head head head"
+        "main  main  .  sidebar"
+        "footer footer footer footer";
+}
+
+.item1 {
+    grid-area: head;
+    background-color: rgb(220, 57, 57);
+    text-align: center;
+}
+
+.item2 {
+    grid-area: main;
+    background-color: aqua;
+    text-align: center;
+}
+
+.item3 {
+    grid-area: sidebar;
+    background-color: rgb(71, 165, 42);
+    text-align: center;
+}
+
+.item4 {
+    grid-area: footer;
+    background-color: rgb(207, 209, 194);
+    text-align: center;
+}
