@@ -1,0 +1,74 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(7, 55px);
+    grid-template-areas: "c1 c2 c3 c4 c5 c7 c8 c8 c9 c10"
+        "c6 c6 c6 c6 c6 c6 c11 c13 c9 c14"
+        "c12 c12 c12 c12 c12 c12 c15 c16 c16 c17"
+        "c19 c20 c21 c22 c18 c18 c18 c18 c18 c18"
+        "c23 c24 c24 c25 c18 c18 c18 c18 c18 c18"
+        "c26 c27 c28 c29 c30 c30 c30 c30 c30 c30"
+        "c31 c27 c32 c32 c33 c34 c35 c37 c38 c39";
+    gap: 5px;
+    color: white;
+    background: linear-gradient(110deg, #f93d66, #6d47d9);
+    /*grid-auto-flow: column;*/
+    /*Sirve para poner en el orden por la columna */
+    padding: 5px;
+}
+
+div>div {
+    background-color: gold;
+    display: grid;
+    place-items: center;
+}
+
+#n6 {
+    background-color: rgb(64, 141, 230);
+    grid-area: c6;
+}
+
+#n8 {
+    background-color: orange;
+    grid-area: c8;
+}
+
+#n9 {
+    background-color: rgba(115, 255, 0, 0.911);
+    grid-area: c9;
+}
+
+#n12 {
+    background-color: rgb(64, 141, 230);
+    grid-area: c12;
+}
+
+#n16 {
+    background-color: orange;
+    grid-area: c16;
+}
+
+#n18 {
+    background-color: rgba(115, 255, 0, 0.911);
+    grid-area: c18;
+}
+
+#n24 {
+    background-color: orange;
+    grid-area: c24;
+}
+
+#n27 {
+    background-color: rgba(115, 255, 0, 0.911);
+    grid-area: c27;
+}
+
+#n30 {
+    background-color: rgb(64, 141, 230);
+    grid-area: c30;
+}
+
+#n32 {
+    background-color: orange;
+    grid-area: c32;
+}
