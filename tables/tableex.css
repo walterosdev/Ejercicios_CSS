@@ -1,0 +1,36 @@
+table.example1 {
+    border-spacing: 0px;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+table.example1 thead {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+table.example1 tbody tr:nth-child(odd) {
+    background-color: rgb(214, 213, 213);
+    text-align: center;
+}
+
+table.example1 tbody tr:nth-child(even) {
+    background-color: rgb(245, 241, 241);
+    text-align: center;
+}
+
+table.example1 .sub-desc {
+    font-size: 0.7em;
+    /* Reduce el tamaño respecto al texto principal */
+    font-weight: normal;
+    /* Opcional: quita la negrita si no la requieres */
+    /*vertical-align: sub;*/
+    /* Lo posiciona como subíndice (o usa vertical-align: baseline / middle) */
+    opacity: 0.85;
+    /* Opcional: suaviza el color */
+    margin-left: 4px;
+    /* Espacio de separación con la palabra anterior */
+}
