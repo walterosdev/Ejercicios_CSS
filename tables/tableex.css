@@ -1,15 +1,17 @@
 table.example1 {
     border-spacing: 0px;
-    width: 100%;
+    width: 1000px;
     border-collapse: collapse;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
+    height: 200px;
 }
 
 table.example1 thead {
     background-color: black;
     color: white;
     text-align: center;
+    height: 50px;
 }
 
 table.example1 tbody tr:nth-child(odd) {
@@ -33,4 +35,129 @@ table.example1 .sub-desc {
     /* Opcional: suaviza el color */
     margin-left: 4px;
     /* Espacio de separación con la palabra anterior */
+}
+
+table.example2 {
+    margin: 25px;
+    width: 800px;
+    height: 200px;
+    border-collapse: collapse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(221, 221, 221, 0.714);
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+table.example2 thead {
+    background-color: rgb(0, 128, 79);
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+table.example2 tbody {
+    text-align: center;
+    color: rgba(169, 169, 169, 0.677);
+    height: 50px;
+}
+
+table.example2 tbody tr:nth-child(even) {
+    background-color: rgb(209, 219, 203);
+    color: rgb(0, 128, 79);
+}
+
+table.example2 tbody tr:nth-child(3) {
+    border-bottom: 3px solid rgb(0, 128, 79);
+}
+
+table.example3 {
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 150px;
+    width: 450px;
+    border-spacing: 0px;
+    text-align: center;
+}
+
+table.example3 thead {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+table.example3 tbody tr:nth-child(odd) th {
+    background-color: rgba(35, 135, 242, 0.67);
+    text-align: left;
+}
+
+table.example3 tbody tr:nth-child(even) th {
+    background-color: rgb(35, 135, 242);
+    text-align: left;
+}
+
+table.example3 tbody tr:nth-child(even) {
+    background-color: rgba(219, 230, 244, 0.67);
+}
+
+.high {
+    background-color: gold;
+    font-weight: bold;
+}
+
+table.example4 {
+    margin-top: 10px;
+    border-spacing: 0px;
+    font-family: Arial, sans-serif;
+    width: 1000px;
+    font-weight: normal;
+    height: 400px;
+    background-color: rgb(181, 177, 177);
+    padding: 30px;
+}
+
+table.example4 caption {
+    background-color: rgb(181, 177, 177);
+    padding-top: 5px;
+}
+
+table.example4 tr:nth-child(even) {
+    background-color: rgb(181, 177, 177);
+}
+
+table.example4 tr:nth-child(odd) {
+    background-color: white;
+}
+
+table.example4 tr td:first-child {
+    padding-left: 15px;
+}
+
+table.example4 tr+tr td:first-child {
+    font-weight: bold;
+}
+
+a.on-hold {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a.progress {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a.open {
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
