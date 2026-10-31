@@ -1,0 +1,63 @@
+nav {
+    background-color: cornflowerblue;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
+    /* Centra los elementos horizontalmente */
+    align-items: center;
+    /* Centra los elementos verticalmente (opcional) */
+    list-style: none;
+    /* Opcional: quita los puntos de la lista */
+    padding: 10px 15px;
+    /* Elimina el padding por defecto */
+    margin: 0;
+    /* Elimina el margen por defecto */
+    width: 100px;
+}
+
+nav li:hover {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li ul.submenu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    list-style: none;
+    padding: 10px 15px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown:hover .submenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown .submenu {
+    position: absolute;
+    top: 50%;
+    /* Lo empuja exactamente debajo del elemento padre */
+    left: 0;
+    /* Lo alinea al inicio de la izquierda */
+    width: 100px;
+    /* O un ancho fijo (ej. 200px) según prefieras */
+}
