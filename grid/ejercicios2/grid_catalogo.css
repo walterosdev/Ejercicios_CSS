@@ -1,3 +1,7 @@
+:root {
+    --amarillo: red;
+}
+
 body {
     background: linear-gradient(110deg, #f93d66, #6d47d9);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -29,14 +33,14 @@ body {
 div.titulo>h1,
 div.titulo>p {
     margin-left: 30px;
-    background-color: gold;
+    background-color: var(--amarillo);
     box-sizing: border-box;
     padding: 5px;
 }
 
 .precio1,
 .precio2 {
-    background-color: gold;
+    background-color: var(--amarillo);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +63,7 @@ div.precio2 h1 {
 }
 
 .navegador>div {
-    background-color: gold;
+    background-color: var(--amarillo);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,6 +90,7 @@ div.precio2 h1 {
 .descripcion>div>p {
     margin: 15px;
     text-align: justify;
+    font-weight: normal;
 }
 
 #icon {
@@ -118,7 +123,7 @@ div.precio2 h1 {
 
 button {
     display: flex;
-    background-color: gold;
+    background-color: var(--amarillo);
     padding: 5px;
     flex-direction: row;
     justify-content: center;
@@ -157,14 +162,14 @@ button>P {
     content: "";
     display: block;
     height: 8px;
-    background: linear-gradient(to right, transparent, #ffc600);
+    background: linear-gradient(to right, transparent, var(--amarillo));
 }
 
 .instant-grams::after {
     content: "";
     display: block;
     height: 8px;
-    background: linear-gradient(to left, transparent, #ffc600);
+    background: linear-gradient(to left, transparent, var(--amarillo));
 }
 
 .container3 {
